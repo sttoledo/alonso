@@ -1,9 +1,16 @@
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
+import './index.css';
+
 function App() {
   return (
     <div className="container">
-      <h1>Welcome to My Modern React Site 🚀</h1>
-      <p>Abc</p>
+      <main style={{ flex: 1 }}>
+        <Hero />
+      </main> 
     </div>
   );
 }
+
 export default App;
