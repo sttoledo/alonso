@@ -13,8 +13,8 @@ function Hero() {
 
   return (
     <section className="hero">
-      <h1 className="hero-image">👶</h1>
-      <h2 className="hero-title">Alonso is on the Way!</h2>
+      <img src="/baby.png" className="hero-image"></img>
+      <h1 className="hero-title">Alonso is on the Way!</h1>
       <p className="hero-subtitle">Estimated due date: <strong>{dueDate.toDateString()}</strong></p>
 
       <div className="progress-bar-container">
@@ -22,7 +22,7 @@ function Hero() {
       </div>
 
       <p className="progress-text">
-        {progress}% of the journey complete ({elapsedDays} out of {totalDays} days)
+        {progress}% complete ({elapsedDays} out of {totalDays} days)
       </p>
     </section>
   );
